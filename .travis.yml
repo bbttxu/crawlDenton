@@ -4,7 +4,7 @@ node_js:
   - "iojs"
 
 before_script:
-	- mkdir coverage
+  - mkdir coverage
 
 after_script:
-	- ls coverage/
+  - ls coverage/
