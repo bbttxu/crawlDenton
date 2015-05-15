@@ -1,5 +1,6 @@
 # artist_spec.coffee
 
+Artist = '../lib/artist'
 chai = require 'chai'
 chai.should()
 
