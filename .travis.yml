@@ -1,10 +1,15 @@
 language: node_js
+
 node_js:
   - "0.12"
   - "iojs"
+
+cache:
+  directories:
+  - node_modules
 
 before_script:
   - mkdir coverage
 
 after_script:
-  - ls coverage/
+  - npm run coverage
