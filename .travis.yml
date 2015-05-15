@@ -7,9 +7,10 @@ node_js:
 cache:
   directories:
   - node_modules
+  - coverage
 
 before_script:
-  - mkdir coverage
+  - mkdir -p coverage
 
-after_script:
+after_success:
   - npm run coverage
